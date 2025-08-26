@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gdb-mcp": {
+      "command": "python",
+      "args": ["-m", "gdb_mcp.main"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
+
